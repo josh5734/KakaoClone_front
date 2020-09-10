@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--gray);
+  padding: 30px 50px;
+  box-sizing: border-box; /*if I give a 50px padding, do not makes the box bigger as the size of padding!*/
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav_notification {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+#nav_notification_small {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  left: 30px;
+  bottom: 30px;
+}
