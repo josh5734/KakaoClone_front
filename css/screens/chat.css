@@ -104,11 +104,11 @@
 }
 
 .reply .reply__column:first-child {
-  width: 10%;
+  width: 5%;
 }
 
 .reply .reply__column:last-child {
-  width: 90%;
+  width: 95%;
   position: relative;
 }
 
@@ -117,8 +117,8 @@
 }
 
 .reply input {
-  padding: 15px;
-  width: 100%;
+  padding: 12px;
+  width: 98%;
   border: var(--main-border);
   border-radius: 20px;
 }
@@ -127,12 +127,12 @@
 .reply__column:last-child button {
   position: absolute;
   right: -3px;
-  top: 2px;
+  top: 6.25px;
 }
 
 .reply__column:last-child > i {
   right: 40px;
-  top: 10px;
+  top: 12.5px;
 }
 
 .reply__column button {
